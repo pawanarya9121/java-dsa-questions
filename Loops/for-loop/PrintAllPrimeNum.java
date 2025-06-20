@@ -1,11 +1,10 @@
-import java .util.*;
-public class CheckPrime{
+import java.util.*;
+public class PrintAllPrimeNum{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("enter num: ");
         int n=sc.nextInt();
         boolean Prime = true ;
-
         if(n<=1){
             Prime = false ;
         }else{
@@ -16,9 +15,9 @@ public class CheckPrime{
             }
         }
         if(Prime){
-            System.out.println(n+" is a prime number");
+            System.out.println(n+ " is prime");
         }else{
-            System.out.println(n+" is not a prime number");
+            System.out.println(n + "not prime");
         }
     }
 }
